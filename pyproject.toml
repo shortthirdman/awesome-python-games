@@ -1,0 +1,15 @@
+[project]
+name = "awesome-pygames"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "asciimatics>=1.15.0",
+    "colorama>=0.4.6",
+    "numpy>=2.5.2",
+    "perlin-noise>=1.14",
+    "pillow>=12.3.0",
+    "plotext>=6.0.0",
+    "pygame>=2.6.1",
+    "windows-curses>=2.4.2 ; sys_platform == 'win32'",
+]
